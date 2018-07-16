@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    id="zeekgpsapp-plugin-assets"
+    version="1.0.0">
+
+    <name>ZeekGPSAppAssets</name>
+    <description>Sounds and graphic assets for Zeek GPS App</description>
+    <license>MIT</license>
+
+    <repo>https://github.com/argust/zeekgpsapp-plugin-assets</repo>
+    <issue>https://github.com/argust/zeekgpsapp-plugin-assets/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- ios -->
+	<platform name="ios">
+		<resource-file src="src/ios/Library/Sounds/modoalarma2.wav"/>
+		<resource-file src="src/ios/Library/Sounds/modoalarma3.wav"/>
+	</platform>
+	<platform name="android">
+		<resource-file src="src/android/res/drawable/launcher_icon.png" target="res/drawable/launcher_icon.png"/>
+		<resource-file src="src/android/res/drawable/modoalarma.png" target="res/drawable/modoalarma.png"/>
+        <resource-file src="src/android/res/drawable-hdpi/launcher_icon.png" target="res/drawable-hdpi/launcher_icon.png"/>
+		<resource-file src="src/android/res/drawable-hdpi/modoalarma.png" target="res/drawable-hdpi/modoalarma.png"/>
+        <resource-file src="src/android/res/drawable-xhdpi/launcher_icon.png" target="res/drawable-xhdpi/launcher_icon.png"/>
+        <resource-file src="src/android/res/drawable-xxhdpi/launcher_icon.png" target="res/drawable-xxhdpi/launcher_icon.png"/>
+		<resource-file src="src/android/res/drawable-xhdpi/modoalarma.png" target="res/drawable-xhdpi/modoalarma.png"/>
+        <resource-file src="src/android/res/drawable-xxhdpi/modoalarma.png" target="res/drawable-xxhdpi/modoalarma.png"/>
+		<resource-file src="src/android/res/raw/beep.ogg" target="res/raw/beep.ogg"/>
+		<resource-file src="src/android/res/raw/modoalarma1.ogg" target="res/raw/modoalarma1.ogg"/>
+		<resource-file src="src/android/res/raw/modoalarma2.ogg" target="res/raw/modoalarma2.ogg"/>
+		<resource-file src="src/android/res/raw/modoalarma3.ogg" target="res/raw/modoalarma3.ogg"/>
+	</platform>
+</plugin>
